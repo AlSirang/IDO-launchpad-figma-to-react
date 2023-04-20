@@ -10,11 +10,11 @@ export const RootLayout = ({ children }) => {
       <main className="relative">
         <div className="w-[238px] md:w-[338px] h-[238px] md:h-[338px] -z-[1] absolute -top-[53px] left-0 bg-cpink-100 filter blur-[180px]" />
 
-        <div className="absolute m-auto w-full -z-[1]">
+        <div className="absolute m-auto w-full -z-[1] -top-[80px] h-[100vh]">
           <img
             src={backgroundFrom}
             alt="background-loop"
-            className="m-auto w-full"
+            className="m-auto w-full object-cover h-full"
           />
         </div>
 
