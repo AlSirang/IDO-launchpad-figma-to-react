@@ -21,13 +21,13 @@ module.exports = function override(config) {
   ]);
 
   config.resolve.alias = {
-    assets: path.resolve(__dirname, "src/assets/"),
-    components: path.resolve(__dirname, "src/components/"),
-    icons: path.resolve(__dirname, "src/icons/"),
-    layouts: path.resolve(__dirname, "src/layouts/"),
-    pages: path.resolve(__dirname, "src/pages/"),
-    utils: path.resolve(__dirname, "src/utils/"),
-    src: path.resolve(__dirname, "src/"),
+    "@/assets": path.resolve(__dirname, "src/assets/"),
+    "@/components": path.resolve(__dirname, "src/components/"),
+    "@/icons": path.resolve(__dirname, "src/icons/"),
+    "@/layouts": path.resolve(__dirname, "src/layouts/"),
+    "@/pages": path.resolve(__dirname, "src/pages/"),
+    "@/utils": path.resolve(__dirname, "src/utils/"),
+    "@/src": path.resolve(__dirname, "src/"),
   };
 
   config.ignoreWarnings = [/Failed to parse source map/];
