@@ -7,6 +7,8 @@ module.exports = {
         cdark: {
           100: "#1A2140",
           150: "#515473",
+          light: "#05050500",
+          normal: "#7864f030",
         },
 
         cpink: {
