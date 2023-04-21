@@ -19,7 +19,12 @@ export const Header = () => {
       <header className="flex items-center justify-between flex-wrap bg-transparent border-b border-b-cdark-100 py-3 px-6">
         <Container className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
-            <span className="font-bold text-3xl tracking-tight">LOGO</span>
+            <Link
+              to="/"
+              className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
+            >
+              <span className="font-bold text-3xl tracking-tight">LOGO</span>
+            </Link>
           </div>
           <div className="block lg:hidden">
             <button
@@ -81,12 +86,12 @@ export const Header = () => {
 
         <div className="mt-7">
           <div className="text-sm flex flex-col gap-1">
-            <a
-              href="#pool"
+            <Link
+              to="/pool"
               className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
             >
               <p className="font-semibold text-[0.95rem]">Pool</p>
-            </a>
+            </Link>
             <a
               href="#staking"
               className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
