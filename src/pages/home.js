@@ -62,33 +62,33 @@ export default function Home() {
         <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
           <div className="py-8 md:px-5 px-1">
             <div className="flex items-center md:justify-evenly overflow-x-scroll scrollbar-hide container">
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <BinanceIcon />
                 </div>
               </div>
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <MoonbeamIcon />
                 </div>
               </div>
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <PolkadotIcon />
                 </div>
               </div>
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <ArbiIcon />
                 </div>
               </div>
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <AvalancheIcon />
                 </div>
               </div>
-              <div class="flex justify-center items-center">
-                <div class="h-16 w-40 flex items-center justify-center">
+              <div className="flex justify-center items-center">
+                <div className="h-16 w-40 flex items-center justify-center">
                   <EthereumIcon />
                 </div>
               </div>
