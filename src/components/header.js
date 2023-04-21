@@ -90,19 +90,25 @@ export const Header = () => {
               to="/pool"
               className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
             >
-              <p className="font-semibold text-[0.95rem]">Pool</p>
+              <span onClick={toggleDrawer}>
+                <p className="font-semibold text-[0.95rem]">Pool</p>
+              </span>
             </Link>
             <a
               href="#staking"
               className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
             >
-              <p className="font-semibold text-[0.95rem]">Staking</p>
+              <span onClick={toggleDrawer}>
+                <p className="font-semibold text-[0.95rem]">Staking</p>
+              </span>
             </a>
             <a
               href="#but-btc"
               className="block mt-4 lg:inline-block lg:mt-0 hover:underline transition-all"
             >
-              <p className="font-semibold text-[0.95rem]">Buy BTC</p>
+              <span onClick={toggleDrawer}>
+                <p className="font-semibold text-[0.95rem]">Buy BTC</p>
+              </span>
             </a>
           </div>
           <div>
