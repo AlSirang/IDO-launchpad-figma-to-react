@@ -31,7 +31,7 @@ export const Home = () => {
             </h3>
             <div className="border border-cpink-100 rounded mt-5">
               <div className="grid grid-cols-10 gap-1 md:gap-6 py-3 md:px-6 px-1">
-                <span className="col-span-2 inline-grid place-content-center md:inline-block">
+                <span className="col-span-2 inline-grid place-content-center">
                   <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap">
                     Stake
                   </h6>
@@ -46,12 +46,12 @@ export const Home = () => {
                     Apply whitelist
                   </h6>
                 </span>
-                <span className="col-span-2 inline-grid place-content-end md:inline-block">
+                <span className="col-span-2 inline-grid place-content-end">
                   <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                     Swap
                   </h6>
                 </span>
-                <span className="col-span-2 inline-grid place-content-center md:inline-block">
+                <span className="col-span-2 inline-grid place-content-center">
                   <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                     Claim
                   </h6>
