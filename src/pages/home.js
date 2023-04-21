@@ -64,22 +64,22 @@ export const Home = () => {
           <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
             <div className="py-8 px-5">
               <div className="grid grid-cols-12 gap-6">
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <BinanceIcon />
                 </span>
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <MoonbeamIcon />
                 </span>
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <PolkadotIcon />
                 </span>
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <ArbiIcon />
                 </span>
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <AvalancheIcon />
                 </span>
-                <span className="col-span-6 md:col-span-2 self-center">
+                <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                   <EthereumIcon />
                 </span>
               </div>
