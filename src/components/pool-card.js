@@ -34,20 +34,27 @@ export const PoolCard = () => {
 
 export const PoolCardLong = () => {
   return (
-    <div className="rounded-lg bg-cdark-500 overflow-x-scroll scrollbar-hide">
+    <div className="rounded-lg bg-cdark-500">
       <div className="p-3">
         <div className="px-4 flex gap-5">
-          <div className="w-[150px]">
-            <img
-              src={cardImage}
-              alt="pool logo"
-              className="object-cover h-full max-h-[180px] w-[150px] rounded-lg"
-            />
+          <div className="flex gap-5">
+            <div className="w-[150px]">
+              <img
+                src={cardImage}
+                alt="pool logo"
+                className="object-cover h-full max-h-[180px] w-[150px] rounded-lg"
+              />
+            </div>
+
+            <div className="md:hidden inline-grid place-content-center">
+              <h2 className="text-cpink-100 font-bold mb-3">PUBLIC</h2>
+              <p className="font-semibold">Project Name</p>
+            </div>
           </div>
 
-          <div className="w-[calc(100%-150px)] grid self-center">
+          <div className="w-[calc(100%-150px)] hidden md:grid self-center">
             <div className="flex justify-between">
-              <div className="w-40">
+              <div className="w-40 md:inline-block">
                 <h2 className="text-cpink-100 font-bold mb-3">PUBLIC</h2>
                 <p className="font-semibold">Project Name</p>
               </div>
@@ -65,6 +72,29 @@ export const PoolCardLong = () => {
                   <EthereumLogo />
                 </span>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="px-5 mt-5">
+          <div className="md:hidden grid grid-cols-12 self-center gap-5">
+            <div className="col-span-6">
+              <h3 className="mb-1">Partecipant</h3>
+              <p className="font-semibold">3120</p>
+            </div>
+
+            <div className="col-span-6 inline-grid place-content-end">
+              <div className="flex gap-3 items-center">
+                <h3>Chain</h3>
+                <span className="inline-flex justify-center items-center bg-white h-10 w-10 rounded-full">
+                  <EthereumLogo />
+                </span>
+              </div>
+            </div>
+
+            <div className="col-span-12">
+              <h3 className="mb-1">Total Raised</h3>
+              <p className="font-semibold">90.000</p>
             </div>
           </div>
         </div>
