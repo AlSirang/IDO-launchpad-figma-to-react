@@ -58,8 +58,8 @@ export const Header = () => {
               </a>
             </div>
             <div>
-              <button className="inline-block text-sm px-4 py-2 rounded text-white bg-cpink-100 hover:bg-pink-600 mt-4 lg:mt-0">
-                <p className="font-semibold">Connect Wallet</p>
+              <button className="inline-block text-sm px-4 py-2 rounded transition-all text-white bg-cpink-100 hover:bg-pink-600 mt-4 lg:mt-0">
+                <p className="font-bold">Connect Wallet</p>
               </button>
             </div>
           </nav>
@@ -100,8 +100,8 @@ export const Header = () => {
             </a>
           </div>
           <div>
-            <button className="inline-block text-sm px-4 py-2 rounded text-white bg-cpink-100 hover:bg-pink-600 mt-4 lg:mt-0">
-              <p className="font-semibold">Connect Wallet</p>
+            <button className="inline-block text-sm px-4 py-2 rounded transition-all text-white bg-cpink-100 hover:bg-pink-600 mt-4 lg:mt-0">
+              <p className="font-bold">Connect Wallet</p>
             </button>
           </div>
         </div>

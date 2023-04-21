@@ -13,6 +13,7 @@ module.exports = {
         },
 
         cpink: {
+          light: "#cc069599",
           100: "#FE288F",
         },
       },
