@@ -30,3 +30,24 @@ export const PoolCard = () => {
     </div>
   );
 };
+
+export const PoolCardLong = () => {
+  return (
+    <div className="rounded-lg bg-cdark-500">
+      <div className="p-3">
+        <div className="pl-3">
+          <div>
+            <img
+              src={cardImage}
+              alt="pool logo"
+              className="object-cover w-full h-full max-h-[100px] max-w-[100px]  rounded-lg"
+            />
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  );
+};
