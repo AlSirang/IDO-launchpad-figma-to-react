@@ -24,33 +24,35 @@ export const Home = () => {
             to invest in a decentralized, secure and transparent manner.
           </p>
         </section>
-        <section className="max-w-4xl m-auto w-full mt-20 md:mt-32">
+        <section className="max-w-2xl m-auto w-full mt-20 md:mt-32">
           <div className="flex flex-col items-center justify-center ">
             <h3 className="text-xl md:text-2xl font-semibold">
               Easy to join with 5 steps
             </h3>
             <div className="border border-cpink-100 rounded mt-5">
-              <div className="grid grid-cols-10 gap-6 py-3 px-6">
-                <span className="md:col-span-2 col-span-5 self-center">
-                  <h6 className="px-8 cursor-default whitespace-nowrap">
+              <div className="grid grid-cols-10 gap-1 md:gap-6 py-3 md:px-6 px-1">
+                <span className="col-span-2 inline-grid place-content-center md:inline-block">
+                  <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap">
                     Stake
                   </h6>
                 </span>
-                <span className="md:col-span-2 col-span-5 self-center">
-                  <h6 className="px-8 cursor-default whitespace-nowrap">KYC</h6>
+                <span className="col-span-2">
+                  <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap">
+                    KYC
+                  </h6>
                 </span>
-                <span className="md:col-span-2 col-span-5 self-center">
-                  <h6 className="px-8 cursor-default whitespace-nowrap">
+                <span className="col-span-2 inline-grid place-content-around">
+                  <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                     Apply whitelist
                   </h6>
                 </span>
-                <span className="md:col-span-2 col-span-5 self-center">
-                  <h6 className="px-8 cursor-default whitespace-nowrap">
+                <span className="col-span-2 inline-grid place-content-end md:inline-block">
+                  <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                     Swap
                   </h6>
                 </span>
-                <span className="md:col-span-2 col-span-full self-center">
-                  <h6 className="px-8 cursor-default whitespace-nowrap">
+                <span className="col-span-2 inline-grid place-content-center md:inline-block">
+                  <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                     Claim
                   </h6>
                 </span>
