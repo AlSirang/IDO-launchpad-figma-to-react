@@ -60,26 +60,38 @@ export default function Home() {
       </section>
       <section className="max-w-6xl m-auto w-full mt-20 md:mt-32">
         <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
-          <div className="py-8 px-5">
-            <div className="grid grid-cols-12 gap-6">
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <BinanceIcon />
-              </span>
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <MoonbeamIcon />
-              </span>
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <PolkadotIcon />
-              </span>
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <ArbiIcon />
-              </span>
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <AvalancheIcon />
-              </span>
-              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
-                <EthereumIcon />
-              </span>
+          <div className="py-8 md:px-5 px-1">
+            <div className="flex items-center md:justify-evenly overflow-x-scroll scrollbar-hide container">
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <BinanceIcon />
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <MoonbeamIcon />
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <PolkadotIcon />
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <ArbiIcon />
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <AvalancheIcon />
+                </div>
+              </div>
+              <div class="flex justify-center items-center">
+                <div class="h-16 w-40 flex items-center justify-center">
+                  <EthereumIcon />
+                </div>
+              </div>
             </div>
           </div>
         </div>

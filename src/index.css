@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: "Raleway", sans-serif;
   background: #1a192c;
-  color: #fff;
+  color: #fdfdfd;
 }
 
 /* width */
@@ -29,6 +29,19 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #c91f71fa;
 }
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* preloader animation */
 
 #preloader {
   height: 80vh;
