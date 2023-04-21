@@ -8,6 +8,7 @@ import {
   MoonbeamIcon,
   PolkadotIcon,
 } from "@/icons";
+import { PoolCard } from "@/components/pool-card";
 
 export const Home = () => {
   return (
@@ -32,28 +33,28 @@ export const Home = () => {
                 Easy to join with 5 steps
               </h3>
               <div className="border border-cpink-100 rounded mt-5">
-                <div className="flex md:flex-nowrap flex-wrap md:justify-start justify-center gap-6 py-3 px-6">
-                  <span className="col-span-2 self-center">
+                <div className="grid grid-cols-10 gap-6 py-3 px-6">
+                  <span className="md:col-span-2 col-span-5 self-center">
                     <h6 className="px-8 cursor-default whitespace-nowrap">
                       Stake
                     </h6>
                   </span>
-                  <span className="col-span-2 self-center">
+                  <span className="md:col-span-2 col-span-5 self-center">
                     <h6 className="px-8 cursor-default whitespace-nowrap">
                       KYC
                     </h6>
                   </span>
-                  <span className="col-span-2 self-center">
+                  <span className="md:col-span-2 col-span-5 self-center">
                     <h6 className="px-8 cursor-default whitespace-nowrap">
                       Apply whitelist
                     </h6>
                   </span>
-                  <span className="col-span-2 self-center">
+                  <span className="md:col-span-2 col-span-5 self-center">
                     <h6 className="px-8 cursor-default whitespace-nowrap">
                       Swap
                     </h6>
                   </span>
-                  <span className="col-span-2 self-center">
+                  <span className="md:col-span-2 col-span-full self-center">
                     <h6 className="px-8 cursor-default whitespace-nowrap">
                       Claim
                     </h6>
@@ -61,7 +62,8 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-
+          </div>
+          <div className="max-w-6xl m-auto w-full mt-20 md:mt-32">
             <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
               <div className="py-8 px-5">
                 <div className="grid grid-cols-12 gap-6">
@@ -85,6 +87,24 @@ export const Home = () => {
                   </span>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="mt-20 md:mt-32">
+            <div className="mb-5">
+              <h3 className="text-2xl font-bold">Upcoming Pool</h3>
+            </div>
+
+            <div className="grid grid-cols-9 gap-3">
+              <span className="col-span-12 md:col-span-3 inline-grid">
+                <PoolCard />
+              </span>
+              <span className="col-span-12 md:col-span-3 inline-grid">
+                <PoolCard />
+              </span>
+              <span className="col-span-12 md:col-span-3 inline-grid">
+                <PoolCard />
+              </span>
             </div>
           </div>
         </section>
