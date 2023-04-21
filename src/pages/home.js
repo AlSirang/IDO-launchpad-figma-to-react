@@ -22,29 +22,37 @@ export default function Home() {
           invest in a decentralized, secure and transparent manner.
         </p>
       </section>
-      <section className="max-w-4xl m-auto w-full mt-20 md:mt-32">
+      <section className="max-w-2xl m-auto w-full mt-20 md:mt-32">
         <div className="flex flex-col items-center justify-center ">
           <h3 className="text-xl md:text-2xl font-semibold">
             Easy to join with 5 steps
           </h3>
           <div className="border border-cpink-100 rounded mt-5">
-            <div className="grid grid-cols-10 gap-6 py-3 px-6">
-              <span className="md:col-span-2 col-span-5 self-center">
-                <h6 className="px-8 cursor-default whitespace-nowrap">Stake</h6>
+            <div className="grid grid-cols-10 gap-1 md:gap-6 py-3 md:px-6 px-1">
+              <span className="col-span-2 inline-grid place-content-center">
+                <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap">
+                  Stake
+                </h6>
               </span>
-              <span className="md:col-span-2 col-span-5 self-center">
-                <h6 className="px-8 cursor-default whitespace-nowrap">KYC</h6>
+              <span className="col-span-2">
+                <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap">
+                  KYC
+                </h6>
               </span>
-              <span className="md:col-span-2 col-span-5 self-center">
-                <h6 className="px-8 cursor-default whitespace-nowrap">
+              <span className="col-span-2 inline-grid place-content-around">
+                <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
                   Apply whitelist
                 </h6>
               </span>
-              <span className="md:col-span-2 col-span-5 self-center">
-                <h6 className="px-8 cursor-default whitespace-nowrap">Swap</h6>
+              <span className="col-span-2 inline-grid place-content-end">
+                <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
+                  Swap
+                </h6>
               </span>
-              <span className="md:col-span-2 col-span-full self-center">
-                <h6 className="px-8 cursor-default whitespace-nowrap">Claim</h6>
+              <span className="col-span-2 inline-grid place-content-center">
+                <h6 className="md:px-8 text-sm cursor-default whitespace-nowrap ">
+                  Claim
+                </h6>
               </span>
             </div>
           </div>
@@ -54,22 +62,22 @@ export default function Home() {
         <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
           <div className="py-8 px-5">
             <div className="grid grid-cols-12 gap-6">
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <BinanceIcon />
               </span>
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <MoonbeamIcon />
               </span>
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <PolkadotIcon />
               </span>
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <ArbiIcon />
               </span>
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <AvalancheIcon />
               </span>
-              <span className="col-span-6 md:col-span-2 self-center">
+              <span className="col-span-6 md:col-span-2 inline-grid place-content-center">
                 <EthereumIcon />
               </span>
             </div>
