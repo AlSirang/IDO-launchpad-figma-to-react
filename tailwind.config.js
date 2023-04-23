@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        tablet: "876px",
+        xs: "475px",
+      },
       colors: {
         cdark: {
           light: "#05050500",
@@ -13,7 +17,7 @@ module.exports = {
         },
 
         cpink: {
-          light: "#cc069599",
+          dark: "#cc069599",
           100: "#FE288F",
         },
       },
