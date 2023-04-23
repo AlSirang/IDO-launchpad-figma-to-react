@@ -51,7 +51,7 @@ export default function Pool() {
         </section>
 
         <section className="max-w-6xl m-auto w-full mt-20 md:mt-32">
-          <div className="bg-gradient-to-r from-cpink-light to-cdark-light rounded mt-20">
+          <div className="bg-gradient-to-r from-cpink-dark to-cdark-light rounded mt-20">
             <div className="py-8 md:px-16 px-10">
               <div className="flex justify-between md:flex-nowrap flex-wrap gap-3">
                 <p className="font-bold text-xl md:text-2xl flex items-center">
