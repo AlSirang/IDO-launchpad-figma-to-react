@@ -1,6 +1,7 @@
 import cardImage from "@/assets/placeholders/png.png";
 import { EthereumLogo } from "@/icons";
 import { Link } from "react-router-dom";
+import { DarkBackground } from "./ui";
 
 export const PoolCard = () => {
   return (
@@ -38,7 +39,7 @@ export const PoolCard = () => {
 
 export const PoolCardLong = () => {
   return (
-    <div className="rounded-lg bg-cdark-500">
+    <DarkBackground className="rounded-lg">
       <div className="p-3">
         <div className="px-4 flex gap-5">
           <div className="flex gap-5">
@@ -103,6 +104,6 @@ export const PoolCardLong = () => {
           </div>
         </div>
       </div>
-    </div>
+    </DarkBackground>
   );
 };

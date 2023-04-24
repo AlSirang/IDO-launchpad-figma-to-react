@@ -4,6 +4,7 @@ import { Disclosure } from "@headlessui/react";
 import StakeModal from "@/components/staking-modals/stake-modal";
 import { useState } from "react";
 import UntakeModal from "./staking-modals/unstake-modal";
+import { DarkBackground } from "./ui";
 
 export const StakingCard = ({ defaultOpen = false }) => {
   const [isStakeModalOpen, setIsStakeModalOpen] = useState(false);
@@ -31,7 +32,7 @@ export const StakingCard = ({ defaultOpen = false }) => {
       <Disclosure defaultOpen={defaultOpen}>
         {({ open }) => (
           <div className="overflow-x-scroll scrollbar-hide w-full">
-            <div className="bg-cdark-500 w-full rounded-lg overflow-x-scroll scrollbar-hide">
+            <DarkBackground className="w-full rounded-lg overflow-x-scroll scrollbar-hide">
               <div className="p-3 px-5 w-full">
                 <div className="flex justify-between">
                   <div className="flex items-center gap-2 w-[150px]">
@@ -219,7 +220,7 @@ export const StakingCard = ({ defaultOpen = false }) => {
                   </div>
                 </Disclosure.Panel>
               </div>
-            </div>
+            </DarkBackground>
           </div>
         )}
       </Disclosure>
