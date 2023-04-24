@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-import { Container } from "./container";
+import { Container } from "@/components/ui";
 import { CloseIcon } from "@/icons";
 
 export const Header = () => {

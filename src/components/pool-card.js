@@ -1,5 +1,7 @@
 import cardImage from "@/assets/placeholders/png.png";
 import { EthereumLogo } from "@/icons";
+import { Link } from "react-router-dom";
+import { DarkBackground } from "./ui";
 
 export const PoolCard = () => {
   return (
@@ -22,9 +24,12 @@ export const PoolCard = () => {
           </div>
 
           <div className="mt-8">
-            <button className="bg-cdark-normal rounded-md w-full hover:bg-cdark-150 transition-all">
+            <Link
+              to="/presale"
+              className="flex justify-center bg-cdark-normal rounded-md w-full hover:bg-cdark-150 transition-all"
+            >
               <span className="inline-block py-3 font-semibold">TBA</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -34,7 +39,7 @@ export const PoolCard = () => {
 
 export const PoolCardLong = () => {
   return (
-    <div className="rounded-lg bg-cdark-500">
+    <DarkBackground className="rounded-lg">
       <div className="p-3">
         <div className="px-4 flex gap-5">
           <div className="flex gap-5">
@@ -99,6 +104,6 @@ export const PoolCardLong = () => {
           </div>
         </div>
       </div>
-    </div>
+    </DarkBackground>
   );
 };

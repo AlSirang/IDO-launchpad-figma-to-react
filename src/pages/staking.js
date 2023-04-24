@@ -1,4 +1,4 @@
-import { Container } from "@/components/container";
+import { Container } from "@/components/ui";
 import { StakingCard } from "@/components/staking-card";
 
 export default function Staking() {
