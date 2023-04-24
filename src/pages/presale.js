@@ -53,7 +53,7 @@ export default function Presale() {
         <div className="grid grid-cols-12 gap-3 mt-4">
           <div className="col-span-12 md:col-span-8 grid gap-2">
             <DarkBackground className="px-8 py-6 rounded-lg">
-              <div className="grid gap-3 md:flex md:justify-between items-center">
+              <div className="grid gap-3 tablet:flex tablet:justify-between items-center">
                 <p>Whitelist ends after</p>
                 <div className="flex gap-2">
                   <div className="text-sm">
@@ -83,73 +83,94 @@ export default function Presale() {
               </div>
             </DarkBackground>
 
-            <DarkBackground className="px-8 py-6 rounded-lg">
-              <h2 className="font-semibold text-xl">Project Info</h2>
+            <DarkBackground className="px-4 py-6 rounded-lg">
+              <h2 className="font-semibold text-base md:text-xl">
+                Project Info
+              </h2>
 
-              <div className="mt-4">
-                <ul className="list-disc grid gap-1">
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Price per token
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      0.025 BUSD per ERC20
-                    </p>
+              <div className="mt-4 pl-4">
+                <ul className="list-disc  gap-1">
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Price per token
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        0.025 BUSD per ERC20
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Swap Amount
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      2,760,000 ERC20
-                    </p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Swap Amount
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        2,760,000 ERC20
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Total Raise
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      $90,000
-                    </p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Total Raise
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        $90,000
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Claim Type
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      Claiming system
-                    </p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Claim Type
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        Claiming system
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Accepted Currency
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">BUSD</p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Accepted Currency
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        BUSD
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Swap Network
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      Ethereum
-                    </p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Swap Network
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        Ethereum
+                      </p>
+                    </div>
                   </li>
-                  <li className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Token Claim Network
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      Ethereum
-                    </p>
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Token Claim Network
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        Ethereum
+                      </p>
+                    </div>
                   </li>
-                  <div className="flex justify-between">
-                    <h4 className="text-sm md:text-base font-semibold">
-                      Vesting Schedule
-                    </h4>
-                    <p className="text-sm md:text-base font-semibold">
-                      25% at TGE, linear for 6 months
-                    </p>
-                  </div>
+
+                  <li>
+                    <div className="flex justify-between">
+                      <h4 className="text-xs md:text-base font-semibold">
+                        Vesting Schedule
+                      </h4>
+                      <p className="text-xs md:text-base font-semibold text-end">
+                        25% at TGE, linear for 6 months
+                      </p>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </DarkBackground>
