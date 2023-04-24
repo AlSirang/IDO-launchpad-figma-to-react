@@ -1,5 +1,5 @@
 import { SvgMediumIcon, SvgTelegramIcon, SvgTwitterIcon } from "@/icons";
-import { Container } from "./container";
+import { Container } from "./ui";
 
 export const Footer = () => {
   return (
