@@ -4,6 +4,7 @@ import { SuspenseLayout } from "@/layouts/suspense.layout";
 const HomePage = React.lazy(() => import("@/pages/home"));
 const PoolPage = React.lazy(() => import("@/pages/pool"));
 const StakingPage = React.lazy(() => import("@/pages/staking"));
+const PresalePage = React.lazy(() => import("@/pages/presale"));
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
     element: (
       <SuspenseLayout>
         <StakingPage />
+      </SuspenseLayout>
+    ),
+  },
+  {
+    path: "/presale",
+    element: (
+      <SuspenseLayout>
+        <PresalePage />
       </SuspenseLayout>
     ),
   },

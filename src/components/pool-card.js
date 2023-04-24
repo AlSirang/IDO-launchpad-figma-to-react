@@ -1,5 +1,6 @@
 import cardImage from "@/assets/placeholders/png.png";
 import { EthereumLogo } from "@/icons";
+import { Link } from "react-router-dom";
 
 export const PoolCard = () => {
   return (
@@ -22,9 +23,12 @@ export const PoolCard = () => {
           </div>
 
           <div className="mt-8">
-            <button className="bg-cdark-normal rounded-md w-full hover:bg-cdark-150 transition-all">
+            <Link
+              to="/presale"
+              className="flex justify-center bg-cdark-normal rounded-md w-full hover:bg-cdark-150 transition-all"
+            >
               <span className="inline-block py-3 font-semibold">TBA</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
