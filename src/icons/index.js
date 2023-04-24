@@ -8,3 +8,5 @@ export * from "./polkadot-icon";
 export * from "./arbi-icon";
 export * from "./avalance-icon";
 export * from "./close-icon";
+export * from "./discord-icon";
+export * from "./global-icon";
