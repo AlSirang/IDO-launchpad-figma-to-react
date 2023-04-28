@@ -33,18 +33,18 @@ export default function Presale() {
           </div>
         </section>
 
-        <DarkBackground className="px-5 py-8 rounded-lg h-56 mt-8">
-          <section className="grid grid-cols-12 border-b max-w-6xl m-auto">
-            <span className="col-span-3 inline-grid place-content-center">
+        <DarkBackground className="px-5 py-8 rounded-lg tablet:h-56 mt-8">
+          <section className="grid tablet:grid-cols-12 tablet:border-b border-l tablet:border-l-0 max-w-6xl m-auto">
+            <span className="col-span-3 inline-grid tablet:place-content-center">
               <TimelineSectoin text="Whitelist start" />
             </span>
-            <span className="col-span-3 inline-grid place-content-center">
+            <span className="col-span-3 inline-grid tablet:place-content-center">
               <TimelineSectoin text="Sale Start" />
             </span>
-            <span className="col-span-3 inline-grid place-content-center">
+            <span className="col-span-3 inline-grid tablet:place-content-center">
               <TimelineSectoin text="FCFS start" />
             </span>
-            <span className="col-span-3 inline-grid place-content-center">
+            <span className="col-span-3 inline-grid tablet:place-content-center">
               <TimelineSectoin text="End time" />
             </span>
           </section>
@@ -274,7 +274,7 @@ export default function Presale() {
             </p>
           </DarkBackground>
 
-          <div className="grid gap-2 mt-4">
+          <div className="grid gap-2 mt-4 pl-3">
             <div>
               <h3 className="font-semibold text-lg">Background</h3>
               <p>
