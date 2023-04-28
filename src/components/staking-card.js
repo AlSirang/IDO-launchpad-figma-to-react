@@ -145,8 +145,8 @@ export const StakingCard = ({ defaultOpen = false }) => {
                       </span>
                     </div>
                   </div>
-                  <div className="md:flex border-t mt-3 pt-3">
-                    <div className="border-b md:border-b-0 pb-4 md:border-r pr-5 md:max-w-xl mt-3 w-45">
+                  <div className="tablet:flex border-t mt-3 pt-3">
+                    <div className="border-b tablet:border-b-0 pb-4 tablet:border-r pr-5 tablet:max-w-xl mt-3 tablet:w-full">
                       <div className="grid gap-2 md:grid-cols-12">
                         <div className="md:col-span-7 col-span-12">
                           <div className="flex justify-between md:grid grid-cols-12 gap-5 mb-3 md:mb-3">
@@ -186,16 +186,18 @@ export const StakingCard = ({ defaultOpen = false }) => {
                       </div>
                     </div>
 
-                    <div className="col-span-6 md:pl-5 mt-3 md:w-96">
-                      <div className="flex justify-between md:grid">
-                        <h2 className="whitespace-nowrap md:mb-3">Staking</h2>
+                    <div className="tablet:px-5 mt-3 tablet:w-[20%] tablet:border-r tablet:border-b-0 border-b pb-4 ">
+                      <div className="flex justify-between tablet:grid">
+                        <h2 className="whitespace-nowrap tablet:mb-3">
+                          Staking
+                        </h2>
                         <p className="font-semibold whitespace-nowrap">
                           10000.20 BTC
                         </p>
                       </div>
 
-                      <div className="mt-5 md:grid gap-3 flex">
-                        <div className="inline-block w-[50%] md:w-full md:max-w-[130px]">
+                      <div className="mt-5 tablet:grid gap-3 flex">
+                        <div className="inline-block w-[50%] tablet:w-full tablet:max-w-[130px]">
                           <button
                             className="rounded-md bg-cpink-100 w-full hover:bg-pink-600 transition-all"
                             onClick={onStake}
@@ -205,13 +207,32 @@ export const StakingCard = ({ defaultOpen = false }) => {
                             </span>
                           </button>
                         </div>
-                        <div className="inline-block w-[50%] md:w-full md:max-w-[130px]">
+                        <div className="inline-block w-[50%] tablet:w-full tablet:max-w-[130px]">
                           <button
                             className="rounded-md bg-transparent border border-cpink-100 w-full hover:border-pink-600 transition-all"
                             onClick={onUnstake}
                           >
                             <span className="inline-block py-1 px-5 text-lg font-medium">
                               Unstake
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="tablet:pl-5 mt-3 tablet:w-[30%]">
+                      <div className="w-full">
+                        <h2 className="whitespace-nowrap mb-1 tablet:mb-3">
+                          Unlock schedule
+                        </h2>
+                        <div className="flex justify-between">
+                          <p className="text-xs">25.03.2023 15.12 UTC</p>
+                          <p>10000.20 BTC</p>
+                        </div>
+                        <div className="mt-5 flex md:justify-end">
+                          <button className="rounded-md bg-[#077063] hover:bg-[#04544a] transition-all">
+                            <span className="inline-block py-1 px-5 text-lg font-medium">
+                              Withdrawal
                             </span>
                           </button>
                         </div>
