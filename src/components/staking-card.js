@@ -226,8 +226,10 @@ export const StakingCard = ({ defaultOpen = false }) => {
                           Unlock schedule
                         </h2>
                         <div className="flex justify-between">
-                          <p className="text-xs">25.03.2023 15.12 UTC</p>
-                          <p>10000.20 BTC</p>
+                          <p className="text-xs tablet:text-sm">
+                            25.03.2023 15.12 UTC
+                          </p>
+                          <p className="text-xs tablet:text-sm">10000.20 BTC</p>
                         </div>
                         <div className="mt-5 flex md:justify-end">
                           <button className="rounded-md bg-[#077063] hover:bg-[#04544a] transition-all">
