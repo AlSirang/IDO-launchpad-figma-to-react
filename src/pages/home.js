@@ -9,8 +9,10 @@ import {
 } from "@/icons";
 import { PoolCard } from "@/components/pool-card";
 import { ApplyNowBanner } from "@/components/apply-now-banner";
+import { useScrollToTop } from "@/src/hooks/useScroll";
 
 export default function Home() {
+  useScrollToTop();
   return (
     <Container>
       <section className="mt-20 max-w-[600px]">

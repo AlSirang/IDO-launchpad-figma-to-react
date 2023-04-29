@@ -1,7 +1,9 @@
 import { Container } from "@/components/ui";
 import { StakingCard } from "@/components/staking-card";
+import { useScrollToTop } from "@/src/hooks/useScroll";
 
 export default function Staking() {
+  useScrollToTop();
   return (
     <>
       <Container>

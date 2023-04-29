@@ -9,8 +9,10 @@ import {
 import { TimelineSectoin } from "@/components/presale-ui";
 import { DarkBackground } from "@/components/ui";
 import { ApplyNowBanner } from "@/components/apply-now-banner";
+import { useScrollToTop } from "@/src/hooks/useScroll";
 
 export default function Presale() {
+  useScrollToTop();
   return (
     <>
       <Container>

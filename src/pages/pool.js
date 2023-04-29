@@ -1,8 +1,10 @@
 import { Container } from "@/components/ui";
 import { PoolCard, PoolCardLong } from "@/components/pool-card";
 import { ApplyNowBanner } from "@/components/apply-now-banner";
+import { useScrollToTop } from "@/src/hooks/useScroll";
 
 export default function Pool() {
+  useScrollToTop();
   return (
     <>
       <Container>
