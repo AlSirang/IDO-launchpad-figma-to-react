@@ -1,4 +1,12 @@
 import classnames from "classnames";
+import {
+  ArbiIcon,
+  AvalancheIcon,
+  BinanceIcon,
+  EthereumIcon,
+  MoonbeamIcon,
+  PolkadotIcon,
+} from "@/icons";
 
 export const Container = ({ children, className = "" }) => {
   return (
@@ -17,6 +25,36 @@ export const DarkBackground = ({ className = "", children }) => {
       )}
     >
       {children}
+    </div>
+  );
+};
+
+export const SupportedChains = ({ className }) => {
+  return (
+    <div
+      className={classnames(
+        "flex overflow-hidden space-x-6 md:space-x-12 absolute top-0 left-0 items-center px-6",
+        className
+      )}
+    >
+      <div className="h-16 w-40 flex items-center justify-center">
+        <BinanceIcon />
+      </div>
+      <div className="h-16 w-40 flex items-center justify-center">
+        <MoonbeamIcon />
+      </div>
+      <div className="h-16 w-40 flex items-center justify-center">
+        <PolkadotIcon />
+      </div>
+      <div className="h-16 w-40 flex items-center justify-center">
+        <ArbiIcon />
+      </div>
+      <div className="h-16 w-40 flex items-center justify-center">
+        <AvalancheIcon />
+      </div>
+      <div className="h-16 w-40 flex items-center justify-center">
+        <EthereumIcon />
+      </div>
     </div>
   );
 };

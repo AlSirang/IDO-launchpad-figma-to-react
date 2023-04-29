@@ -3,6 +3,28 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        "move-top": {
+          "0%": {
+            transform: "translate(0, 0)",
+          },
+          "100%": {
+            transform: "translate(-100%, 0)",
+          },
+        },
+        "move-bottom": {
+          "0%": {
+            transform: "translate(100%, 0)",
+          },
+          "100%": {
+            transform: "translate(0, 0)",
+          },
+        },
+      },
+      animation: {
+        "move-top": "move-top 20s normal linear infinite",
+        "move-bottom": "move-bottom 20s linear infinite",
+      },
       screens: {
         tablet: "876px",
         xs: "475px",

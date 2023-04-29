@@ -1,12 +1,4 @@
-import { Container } from "@/components/ui";
-import {
-  ArbiIcon,
-  AvalancheIcon,
-  BinanceIcon,
-  EthereumIcon,
-  MoonbeamIcon,
-  PolkadotIcon,
-} from "@/icons";
+import { Container, SupportedChains } from "@/components/ui";
 import { PoolCard } from "@/components/pool-card";
 import { ApplyNowBanner } from "@/components/apply-now-banner";
 import { useScrollToTop } from "@/src/hooks/useScroll";
@@ -62,40 +54,10 @@ export default function Home() {
         </div>
       </section>
       <section className="max-w-6xl m-auto w-full mt-20 md:mt-32">
-        <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20">
-          <div className="py-8 md:px-5 px-1">
-            <div className="flex items-center md:justify-evenly overflow-x-scroll scrollbar-hide container">
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <BinanceIcon />
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <MoonbeamIcon />
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <PolkadotIcon />
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <ArbiIcon />
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <AvalancheIcon />
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="h-16 w-40 flex items-center justify-center">
-                  <EthereumIcon />
-                </div>
-              </div>
-            </div>
+        <div className="bg-gradient-to-b from-cdark-normal to-cdark-light rounded mt-20 overflow-hidden">
+          <div className="h-28 md:px-5 px-1 relative flex">
+            <SupportedChains className="animate-move-top top-[25px]" />
+            <SupportedChains className="animate-move-bottom top-[25px]" />
           </div>
         </div>
       </section>
