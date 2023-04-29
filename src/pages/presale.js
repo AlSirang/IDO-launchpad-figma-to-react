@@ -180,9 +180,9 @@ export default function Presale() {
               <h2 className="font-semibold text-base">Progress</h2>
 
               <div className="rounded-lg overflow-hidden mt-3">
-                <div className="mb-2 h-5 w-full bg-[#201D1D] rounded-lg">
+                <div className="mb-2 h-4 w-full bg-[#201D1D] rounded-lg">
                   <div
-                    className="h-5 bg-cpink-100 rounded-lg"
+                    className="h-4 bg-cpink-100 rounded-lg"
                     style={{ width: "25%" }}
                   />
                 </div>
@@ -223,7 +223,7 @@ export default function Presale() {
               <div className="flex justify-center mt-10">
                 <button className="rounded-md bg-cpink-100 max-w-[50%] w-full hover:bg-pink-600 transition-all">
                   <span className="inline-block py-1 px-5 text-lg font-medium">
-                    Stake
+                    Swap
                   </span>
                 </button>
               </div>
