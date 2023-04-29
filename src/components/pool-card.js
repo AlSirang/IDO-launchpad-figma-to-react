@@ -53,7 +53,9 @@ export const PoolCardLong = () => {
 
             <div className="md:hidden inline-grid place-content-center">
               <h2 className="text-cpink-100 font-bold mb-3">PUBLIC</h2>
-              <p className="font-semibold">Project Name</p>
+              <Link to="/presale" className="hover:underline">
+                <p className="font-semibold">Project Name</p>
+              </Link>
             </div>
           </div>
 
@@ -61,7 +63,10 @@ export const PoolCardLong = () => {
             <div className="flex justify-between">
               <div className="w-40 md:inline-block">
                 <h2 className="text-cpink-100 font-bold mb-3">PUBLIC</h2>
-                <p className="font-semibold">Project Name</p>
+
+                <Link to="/presale" className="hover:underline">
+                  <p className="font-semibold">Project Name</p>
+                </Link>
               </div>
               <div className="w-40 inline-grid place-content-center">
                 <h3 className="mb-3">Partecipant</h3>
