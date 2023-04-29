@@ -44,6 +44,7 @@ body {
 
 #preloader {
   height: 80vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,9 +52,10 @@ body {
 #preloader .loader3 {
   width: 100px;
   height: 100px;
-  display: inline-block;
   padding: 0px;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #preloader .loader3 span {
   position: absolute;
